@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { toTypedSchema } from '@vee-validate/zod';
 import { useForm } from 'vee-validate';
-import z, { email } from 'zod';
+import z from 'zod';
 
 const loginSchema = toTypedSchema(
   z.object({
