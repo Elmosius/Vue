@@ -1,6 +1,6 @@
-import Soal1 from '@/components/belajar/Soal1.vue'
-import Soal2 from '@/components/belajar/Soal2.vue'
-import Soal3 from '@/components/belajar/Soal3.vue'
+import Soal1 from '@/components/Soal1.vue'
+import Soal2 from '@/components/Soal2.vue'
+import Parent from '@/components/soal 3/Parent.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -16,7 +16,7 @@ const router = createRouter({
     },
     {
       path: '/soal/3',
-      component: Soal3,
+      component: Parent,
     },
   ],
 })
